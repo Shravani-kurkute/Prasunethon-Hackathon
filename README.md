@@ -1,13 +1,13 @@
 # Prasunethon-Hackathon
 
-#Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
 This project involves building and evaluating various machine learning models to detect fraudulent transactions in a credit card dataset.
 
 -Dataset
 The dataset used in this project is creditcard.csv, which contains transactions made by credit cards in September 2013 by European cardholders. The dataset presents transactions that occurred in two days, with 492 frauds out of 284,807 transactions.
 
-#Project Structure
+# Project Structure
 1. Data Exploration
 
 -Load the dataset.
@@ -33,11 +33,11 @@ The dataset used in this project is creditcard.csv, which contains transactions 
 -Evaluate models using metrics like accuracy, precision, recall, and F1 score.
 -Compare model performance.
 
-#Installation
+# Installation
 Ensure you have Python and the required libraries installed:
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost catboost lightgbm
 
-#Usage
+# Usage
 1. Load and Explore the Data:
    import pandas as pd
 import numpy as np
@@ -91,15 +91,15 @@ scores_dict = {
 scores_df = pd.DataFrame(scores_dict)
 scores_df.plot(kind='barh', figsize=(15, 8))
 
-#Results
+# Results
 -Detailed analysis and visualization of the dataset.
 -Comparison of multiple machine learning models.
 -Insights into model performance and selection of the best-performing model.
 
-#Contributing
+# Contributing
 If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 
-#Acknowledgments
+# Acknowledgments
 -The dataset is provided by Kaggle.
 -Libraries used: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn, XGBoost, CatBoost, LightGBM.
 
